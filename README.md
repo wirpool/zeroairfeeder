@@ -1,2 +1,7 @@
-# zerofeed24
-The main purpose of this app is to be a on-the-go fr24 feeder. The app uses the LoRa cap for gps fix, and external RTS-SDR for receive signals from aircrafts, then send them to the website flightradar24.com using fr24feeder official repo. You can insert your fr24 sharing key or submit a request for a new one directly in the app.
+# zeroairfeeder
+ZeroAirFeeder turns the CardputerZero into an ADS-B feeder for Flightradar24, Plane Finder and AirNav RadarBox. Plug an RTL-SDR dongle with a 1090 MHz antenna into the USB-A port, fit the Cap LoRa-1262 with GPS, connect to Wi-Fi and start feeding.
+
+SHARING KEY
+You can enter your sharing key or request one directly in app:
+- Flightradar24 and AirNav Radarbox: if you don't have a key the request is automatic.
+- PlaneFinder: you have to submit the request via planefinder website, find the qrcode in app.
