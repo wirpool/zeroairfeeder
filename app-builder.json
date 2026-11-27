@@ -1,18 +1,18 @@
 {
-  "package_name": "zerofeed24",
-  "version": "1.0.0",
-  "app_name": "ZeroFeed24",
-  "bin_name": "zerofeed24_app",
-  "description": "Feed ADS-B aircraft data from an RTL-SDR dongle to Flightradar24",
+  "package_name": "zeroairfeeder",
+  "version": "1.3.0",
+  "app_name": "ZeroAirFeeder",
+  "bin_name": "zeroairfeeder_app",
+  "description": "Feed ADS-B aircraft data from an RTL-SDR dongle to Flightradar24, Plane Finder and AirNav RadarBox",
   "store": {
-    "summary": "Share the aircraft you receive with Flightradar24",
-    "description": "ZeroFeed24 turns the CardputerZero into a Flightradar24 feeder. Plug an RTL-SDR dongle with a 1090 MHz antenna into the USB-A port, fit the Cap LoRa-1262 with GPS, connect to Wi-Fi and start feeding.\n\n- Enter your FR24 sharing key, or get a new one from the app through Flightradar24's own signup.\n- Antenna position and altitude from the GPS of the M5Stack Cap LoRa-1262.\n- Downloads Flightradar24's official fr24feed by itself at the first start, checked against Flightradar24's signature. No root, no sudo.\n- Feeds only while the app is open and you started it: nothing runs in the background.\n- FEED page: link to FR24, radar ID, aircraft sent and heard, receiver and MLAT state.\n- Receiver gain and PPM, service log, light and dark theme. English and Italian.\n\nThe package bundles readsb (GPL-3.0). fr24feed is Flightradar24's software, downloaded from their repository under their licence.",
+    "summary": "Share the aircraft you receive with Flightradar24, Plane Finder and AirNav",
+    "description": "ZeroAirFeeder turns the CardputerZero into an ADS-B feeder for Flightradar24, Plane Finder and AirNav RadarBox. Plug an RTL-SDR dongle with a 1090 MHz antenna into the USB-A port, fit the Cap LoRa-1262 with GPS, connect to Wi-Fi and start feeding.\n\n- Enter your FR24 sharing key, or get a new one from the app through Flightradar24's own signup.\n- Plane Finder (with your share code) and AirNav RadarBox (key received automatically) can be turned on or off in SETUP; on the KEYS page every feeder's key works the same way: type the one you have, or get a new one (FR24 signup, Plane Finder QR code, AirNav automatic); all the services feed from the same receiver.\n- Antenna position and altitude from the GPS of the M5Stack Cap LoRa-1262.\n- Downloads each service's official program by itself (fr24feed, pfclient, rbfeeder), checked against its maker's signature or a pinned checksum. No root, no sudo.\n- Feeds only while the app is open and you started it: nothing runs in the background.\n- FEED page: one row per feeder with its own state and numbers, coloured at a glance, then receiver and GPS.\n- Receiver gain and PPM, log, light and dark theme. English and Italian.\n\nThe package bundles readsb (GPL-3.0). fr24feed, pfclient and rbfeeder are the software of Flightradar24, Plane Finder and AirNav Systems, downloaded from them under their own terms.",
     "locales": {
       "en": {
-        "summary": "Share the aircraft you receive with Flightradar24"
+        "summary": "Share the aircraft you receive with Flightradar24, Plane Finder and AirNav"
       },
       "it": {
-        "summary": "Condividi con Flightradar24 gli aerei che ricevi"
+        "summary": "Condividi con Flightradar24, Plane Finder e AirNav gli aerei che ricevi"
       }
     },
     "categories": [
@@ -20,13 +20,14 @@
     ],
     "screenshots": [
       "docs/media/feed.png",
-      "docs/media/fr24.png",
+      "docs/media/keys.png",
       "docs/media/setup.png",
+      "docs/media/keymenu.png",
       "docs/media/signup.png"
     ],
-    "icon": "assets/images/zerofeed24.png",
+    "icon": "assets/images/zeroairfeeder.png",
     "license": "MIT",
-    "source_repo": "https://github.com/wirpool/zerofeed24",
+    "source_repo": "https://github.com/wirpool/zeroairfeeder",
     "author": {
       "github": "wirpool",
       "display_name": "Wirpool"
