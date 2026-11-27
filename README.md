@@ -1,4 +1,4 @@
-# zeroairfeeder
+# ZeroAirFeeder
 ZeroAirFeeder turns the CardputerZero into an ADS-B feeder for Flightradar24, Plane Finder and AirNav RadarBox. Plug an RTL-SDR dongle with a 1090 MHz antenna into the USB-A port, fit the Cap LoRa-1262 with GPS, connect to Wi-Fi and start feeding.
 The app can also be used without an internet connection, the feeder firmware will work and send data to a local network(like the Cardputer hotspot or any network at which the device is connected to).
 
