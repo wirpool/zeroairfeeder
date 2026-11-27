@@ -4,12 +4,14 @@ The app can also be used without an internet connection, the feeder firmware wil
 
 Following an explanation of what the pages of the app do:
 
+
 PAGE FEED
 
 <img width="320" height="170" alt="feed" src="https://github.com/user-attachments/assets/3216f68c-c67b-4ec3-85da-5b63921f1f46" />
 
 Here you can see the status of every feeder you are running, receiver data and GPS data.
 In the lower part of the screen you see key 4 to change page, key 5 to start the feeder firmware, key 6 is the log access, key 7 is day/night mode and key 8 is for exit the app.
+
 
 PAGE KEYS
 
@@ -19,7 +21,9 @@ Here you can manage your keys as well as request a new one directly in app:
 - Flightradar24 and AirNav Radarbox: if you don't have a key the request is automatic in the app.
 - PlaneFinder: you have to submit the request via planefinder website, find the qrcode and instruction in app.
 
+
 PAGE SETUP
+
 This is where you can manage all about the services in the app. 
 
 <img width="320" height="170" alt="setup 1" src="https://github.com/user-attachments/assets/5405d21c-e33a-4e45-88b1-d994d5b506af" />
