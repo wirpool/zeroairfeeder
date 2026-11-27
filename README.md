@@ -43,4 +43,5 @@ Selection theme and Language of the app.
 See the log and the About pages.
 
 Thankyou all for downloading my app, hope you enjoy it.
+
 Wirpool
